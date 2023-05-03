@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudDesignPatternsMain", "CloudDesignPatternsMain\CloudDesignPatternsMain.csproj", "{CEC27BEF-C82A-4C2C-92DD-5FB6F2ABF83C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{765A02C1-C1F9-4FC5-871B-9788C16156C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainMathService", "MainMathService\MainMathService.csproj", "{39518428-37C2-4604-891F-6CE5A18C064B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathAddition", "MathAddition\MathAddition.csproj", "{B743941A-4A11-4A28-AB62-983AD3D9FBC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathSubtraction", "MathSubtraction\MathSubtraction.csproj", "{1D1A388E-1E1F-4A5B-A670-9B2B9C281CBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEC27BEF-C82A-4C2C-92DD-5FB6F2ABF83C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEC27BEF-C82A-4C2C-92DD-5FB6F2ABF83C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEC27BEF-C82A-4C2C-92DD-5FB6F2ABF83C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEC27BEF-C82A-4C2C-92DD-5FB6F2ABF83C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39518428-37C2-4604-891F-6CE5A18C064B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39518428-37C2-4604-891F-6CE5A18C064B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39518428-37C2-4604-891F-6CE5A18C064B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39518428-37C2-4604-891F-6CE5A18C064B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B743941A-4A11-4A28-AB62-983AD3D9FBC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B743941A-4A11-4A28-AB62-983AD3D9FBC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B743941A-4A11-4A28-AB62-983AD3D9FBC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B743941A-4A11-4A28-AB62-983AD3D9FBC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D1A388E-1E1F-4A5B-A670-9B2B9C281CBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D1A388E-1E1F-4A5B-A670-9B2B9C281CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D1A388E-1E1F-4A5B-A670-9B2B9C281CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D1A388E-1E1F-4A5B-A670-9B2B9C281CBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{39518428-37C2-4604-891F-6CE5A18C064B} = {765A02C1-C1F9-4FC5-871B-9788C16156C7}
+		{B743941A-4A11-4A28-AB62-983AD3D9FBC8} = {765A02C1-C1F9-4FC5-871B-9788C16156C7}
+		{1D1A388E-1E1F-4A5B-A670-9B2B9C281CBD} = {765A02C1-C1F9-4FC5-871B-9788C16156C7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA181AA2-2DB0-4D7E-8FD4-2786BAB6C519}
+	EndGlobalSection
+EndGlobal
