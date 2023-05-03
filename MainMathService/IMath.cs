@@ -7,5 +7,7 @@ namespace MainMathService
     {
         IMathAddition<double> Addition { get; }
         IMathSubtraction<double> Subtraction { get; }
+
+        double[] PerformAll(double value1, double value2);
     }
 }
